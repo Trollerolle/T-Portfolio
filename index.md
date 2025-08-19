@@ -13,8 +13,8 @@ I dette semester fokuserer jeg på at skabe en stærk struktur til at dokumenter
 ---
 
 ## Fokusområder
-- **IT-Projektledelse & Software Delivery**
-- **Backend-udvikling & API-Design**
+- [IT-Projektledelse & Software Delivery](valgfag/ProjektledelseKlar.md)
+- [Backend-udvikling & API-Design](valgfag/BackendKlar.md)
 
 - [Hvorfor har jeg valgt de emner?](indlaeg/whydis.md)
 ---
