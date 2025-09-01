@@ -2,6 +2,11 @@
 
 **Aktør:** Troels Trab  
 **Titel:** Professionel mødeafholder
+---
+
+## Ugens indlæg
+
+- 29/08-2025: [Ugen der gik](indlaeg/29-08.md)
 
 ---
 
@@ -13,14 +18,14 @@ I dette semester fokuserer jeg på at skabe en stærk struktur til at dokumenter
 ---
 
 ## Fokusområder
-- [IT-Projektledelse & Software Delivery](valgfag/ProjektledelseKlar.md)
-- [Backend-udvikling & API-Design](valgfag/BackendKlar.md)
+- [IT-Projektledelse & Software Delivery](valgfag/Projektledelse01-09.md)
+- [Backend-udvikling & API-Design](valgfag/Backend03-09.md)
 
-- [Hvorfor har jeg valgt de emner?](indlaeg/whydis.md)
+- [Hvorfor har jeg valgt de emner?](indlaeg/HvorforEmner.md)
 ---
 
 ## Nøgleprincipper & refleksioner
-- Opdater **dagligt**
+- Opdater **Ugentligt**
 - Reflekter **løbende**
 - Skab en **gnidningsfri struktur** for arbejdsprocessen
 
@@ -35,3 +40,10 @@ Porteføljen skal:
 ## Mål
 - At kunne vise og tale om, hvordan jeg har opnået læringsmålene for semestret
 - At bruge refleksionerne som “guldkorn” for mit fremtidige jeg
+
+
+## Arkiv
+
+- 15/08-2025: [Ugen der gik](indlaeg/15-08.md)
+- 15/08-2025: [API-Design](valgfag/BackendKlar.md)
+- 15/08-2025: [Projektledelse.](valgfag/ProjektledelseKlar.md)
