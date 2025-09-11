@@ -128,8 +128,8 @@ Porteføljen skal:
     filtered.forEach(p => {
      const date = p.date ? new Date(p.date).toLocaleDateString('da-DK') : '';
 
-// Lav små badges af tags (maks 3, juster efter behov)
-const pills = (p.tags || []).slice(0, 4).map(t => `
+// Lav små badges af tags (maks 3, juster efter behov), Har slettet .slice(0,3) for at den altid skal finde alle.
+const pills = (p.tags || []).map(t => `
   <span class="tag-pill">${t}</span>
 `).join('');
 
