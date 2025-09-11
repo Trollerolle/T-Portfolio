@@ -10,15 +10,15 @@ tags: [Info]
 
 ## IT-Projektledelse & Software Delivery
 
-Jeg har ofte oplevet at der sker misforståelser og diskurs mellem udviklere og kunder, hvor min nysgerrighed er myntet på selve kommunikationen mellem parterne og hvor henne informationen går tabt.
-Så for at kunne understøtte og komme disse udfordringer til livs fremadrettet, har jeg valgt at undersøge og udvikle værktøjer hertil.
+Jeg har ofte oplevet at der sker misforstÃ¥elser og diskurs mellem udviklere og kunder, hvor min nysgerrighed er myntet pÃ¥ selve kommunikationen mellem parterne og hvor henne informationen gÃ¥r tabt.
+SÃ¥ for at kunne understÃ¸tte og komme disse udfordringer til livs fremadrettet, har jeg valgt at undersÃ¸ge og udvikle vÃ¦rktÃ¸jer hertil.
 
 ---
 
 ## Backend-udvikling & API-Design
 
-Lige siden jeg lærte om API'er har min sult for ny viden og implementation omkring det været umættelig, den mulighed at kunne konfigureres til de ønskede omstændigheder og deres fleksibilitet, får mig til at tænke på hvilke andre mulige "opbygninger" af API'er der findes, som vi ikke har lært om endnu. 
-Ville man ud fra kravindsamlingen kunne allerede i opstarts fasen, blive pejlet hen på hvilken er oplagt??
+Lige siden jeg lÃ¦rte om API'er har min sult for ny viden og implementation omkring det vÃ¦ret umÃ¦ttelig, den mulighed at kunne konfigureres til de Ã¸nskede omstÃ¦ndigheder og deres fleksibilitet, fÃ¥r mig til at tÃ¦nke pÃ¥ hvilke andre mulige "opbygninger" af API'er der findes, som vi ikke har lÃ¦rt om endnu. 
+Ville man ud fra kravindsamlingen kunne allerede i opstarts fasen, blive pejlet hen pÃ¥ hvilken er oplagt??
 
 ---
 

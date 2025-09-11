@@ -1,55 +1,55 @@
 ---
-# tom front matter så Jekyll medtager Liquid i denne side
+# tom front matter sÃ¥ Jekyll medtager Liquid i denne side
 ---
 
 # Tid til Troels V4.0
 
-**Aktør:** Troels Trab  
-**Titel:** Professionel mødeafholder
+**AktÃ¸r:** Troels Trab  
+**Titel:** Professionel mÃ¸deafholder
 ---
 
-## Ugens indlæg
+## Ugens indlÃ¦g
 
 - 29/08-2025: [Ugen der gik](indlaeg/29-08.md)
 
 ---
 
-## Formål
-I dette semester fokuserer jeg på at skabe en stærk struktur til at dokumentere og konsolidere både:
+## FormÃ¥l
+I dette semester fokuserer jeg pÃ¥ at skabe en stÃ¦rk struktur til at dokumentere og konsolidere bÃ¥de:
 - Min arbejdsproces i projekter
-- Min sideløbende læringsproces, som skal understøtte arbejdet
+- Min sidelÃ¸bende lÃ¦ringsproces, som skal understÃ¸tte arbejdet
 
 ---
 
-## Fokusområder
+## FokusomrÃ¥der
 - [IT-Projektledelse & Software Delivery](valgfag/Projektledelse01-09.md)
 - [Backend-udvikling & API-Design](valgfag/Backend03-09.md)
 
 - [Hvorfor har jeg valgt de emner?](indlaeg/HvorforEmner.md)
 ---
 
-## Nøgleprincipper & refleksioner
+## NÃ¸gleprincipper & refleksioner
 - Opdater **Ugentligt**
-- Reflekter **løbende**
+- Reflekter **lÃ¸bende**
 - Skab en **gnidningsfri struktur** for arbejdsprocessen
 
-Porteføljen skal:
+PortefÃ¸ljen skal:
 - Konsolidere oplevelser og indsigter
-- Skabe grobund for eftertanke og læring af fejl
-- Eventuelt suppleres med videoindlæg for at styrke præsentationskompetencer
-- Indeholde status på projekter/guilds, noter om hændelser, og næste skridt
+- Skabe grobund for eftertanke og lÃ¦ring af fejl
+- Eventuelt suppleres med videoindlÃ¦g for at styrke prÃ¦sentationskompetencer
+- Indeholde status pÃ¥ projekter/guilds, noter om hÃ¦ndelser, og nÃ¦ste skridt
 
 ---
 
-## Mål
-- At kunne vise og tale om, hvordan jeg har opnået læringsmålene for semestret
-- At bruge refleksionerne som “guldkorn” for mit fremtidige jeg
+## MÃ¥l
+- At kunne vise og tale om, hvordan jeg har opnÃ¥et lÃ¦ringsmÃ¥lene for semestret
+- At bruge refleksionerne som â€œguldkornâ€ for mit fremtidige jeg
 
 
 ## Arkiv
 
 <div style="margin:.5rem 0 1rem">
-  <input id="q" type="search" placeholder="Søg i titel/uddrag..." style="max-width:420px;width:100%;padding:.5rem;border:1px solid #ddd;border-radius:8px" />
+  <input id="q" type="search" placeholder="SÃ¸g i titel/uddrag..." style="max-width:420px;width:100%;padding:.5rem;border:1px solid #ddd;border-radius:8px" />
 </div>
 
 <div id="tags" style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem"></div>
@@ -57,7 +57,7 @@ Porteføljen skal:
 <ul id="results" style="list-style:none;padding:0;display:flex;flex-direction:column;gap:1rem"></ul>
 
 <noscript>
-  <h3>Dagens indlæg (statisk fallback)</h3>
+  <h3>Dagens indlÃ¦g (statisk fallback)</h3>
   <ul>
       <li><a href="indlaeg/15-08.md">15-08-2025-Proces</a></li>
       <li><a href="valgfag/BackendKlar.md">15-08-2025-API-Design</a></li>
@@ -73,7 +73,7 @@ Porteføljen skal:
     .map(p => ({ ...p, dateObj: p.date ? new Date(p.date) : null }))
     .sort((a,b) => (b.dateObj?.getTime()||0) - (a.dateObj?.getTime()||0));
 
-  // Unik tagliste (vil du kun vise udvalgte tags, erstat næste linje med en fast liste)
+  // Unik tagliste (vil du kun vise udvalgte tags, erstat nÃ¦ste linje med en fast liste)
   const allTags = [...new Set(posts.flatMap(p => p.tags || []))].sort((a,b)=>a.localeCompare(b,'da'));
   const selected = new Set();
 
@@ -128,7 +128,7 @@ Porteføljen skal:
     filtered.forEach(p => {
      const date = p.date ? new Date(p.date).toLocaleDateString('da-DK') : '';
 
-// Lav små badges af tags (maks 3, justér efter behov)
+// Lav smÃ¥ badges af tags (maks 3, justÃ©r efter behov)
 const pills = (p.tags || []).slice(0, 3).map(t => `
   <span class="tag-pill">${t}</span>
 `).join('');
@@ -138,7 +138,7 @@ li.innerHTML = `
   <div class="post-row">
     <div class="title-line">
       <a href="${p.url}" class="post-title">${p.title}</a>
-      ${date ? `<small class="post-date">— ${date}</small>` : ``}
+      ${date ? `<small class="post-date">â€” ${date}</small>` : ``}
     </div>
     <div class="tag-line">${pills}</div>
   </div>
@@ -147,7 +147,7 @@ $out.appendChild(li);
 
     });
 
-    if (!filtered.length) $out.innerHTML = '<li>Ingen indlæg matchede din søgning/valgte tags.</li>';
+    if (!filtered.length) $out.innerHTML = '<li>Ingen indlÃ¦g matchede din sÃ¸gning/valgte tags.</li>';
   }
 
   render();

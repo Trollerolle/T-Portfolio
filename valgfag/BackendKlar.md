@@ -1,28 +1,28 @@
 ---
-title: 15-08-2025 - API-Design - Første møde
+title: 15-08-2025 - API-Design - FÃ¸rste mÃ¸de
 date: 2025-08-15
 tags: [API-Design]
 ---
 
-# Indlæg til første møde med Backend guild
+# IndlÃ¦g til fÃ¸rste mÃ¸de med Backend guild
 
 ---
 
 ## Status
 
-Lige nu er jeg allerede begyndt at læse lidt om en anden API-design end den vi kender, men har ikke implementeret noget endnu og er kun liige startet på at læse dens dokumentation.
+Lige nu er jeg allerede begyndt at lÃ¦se lidt om en anden API-design end den vi kender, men har ikke implementeret noget endnu og er kun liige startet pÃ¥ at lÃ¦se dens dokumentation.
 
 
 ---
 
-## Mål
+## MÃ¥l
 
-Mit mål er at få opbygget en vidensbase af forskellige API-designs og deres pros & cons, for at nemmere kunne udvælge den optimale tilgang tidligere i udviklingsprocessen ud fra kundens ønsker.
+Mit mÃ¥l er at fÃ¥ opbygget en vidensbase af forskellige API-designs og deres pros & cons, for at nemmere kunne udvÃ¦lge den optimale tilgang tidligere i udviklingsprocessen ud fra kundens Ã¸nsker.
 
 ---
 
-## Næste skridt
+## NÃ¦ste skridt
 
-Læse videre på dokumentationen stille og roligt, mens jeg får sat strukturen op for dette semester samt spare med guilden og vejlederen for at se om jeg egentlig tager nogle fornuftige skridt i min rejse.
+LÃ¦se videre pÃ¥ dokumentationen stille og roligt, mens jeg fÃ¥r sat strukturen op for dette semester samt spare med guilden og vejlederen for at se om jeg egentlig tager nogle fornuftige skridt i min rejse.
 
 D. 15/08-2025

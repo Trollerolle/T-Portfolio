@@ -5,7 +5,7 @@ layout: null
 {%- assign first = true -%}
 {%- for p in site.pages -%}
   {%- comment -%}
-    Vis kun sider i mappen "indlaeg/" som har mindst ét tag
+    Vis kun sider i mappen "indlaeg/" som har mindst Ã©t tag
   {%- endcomment -%}
   {%- if p.path contains 'indlaeg/' and p.tags and p.tags.size > 0 -%}
     {%- unless first -%},{%- endunless -%}
