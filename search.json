@@ -7,7 +7,7 @@ layout: null
   {%- comment -%}
     Vis kun sider i mappen "indlaeg/" som har mindst ét tag
   {%- endcomment -%}
-  {%- if p.path contains 'indlaeg/' and p.tags and p.tags.size > 0 -%}
+  {%- if (p.path contains 'indlaeg/' or p.path contains 'valgfag/') and p.tags and p.tags.size > 0 -%}
     {%- unless first -%},{%- endunless -%}
     {%- assign first = false -%}
     {%- assign excerpt = p.excerpt | default: p.content | strip_html | strip_newlines | truncate: 220 -%}
