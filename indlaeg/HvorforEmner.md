@@ -1,3 +1,9 @@
+---
+title: Emne valg og begrundelse.
+date: 2025-08-12
+tags: [Info]
+---
+
 # Hvorfor er mine emner de bedste?
 
 ---

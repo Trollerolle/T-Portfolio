@@ -1,3 +1,9 @@
+---
+title: 01-09-2025 - IT-Projektledelse - Teori søgnings udfordringer
+date: 2025-09-01
+tags: [IT-Projektledelse]
+---
+
 # IT-Projektledelse – 01/09-2025
 
 ## __Erfaring__  

@@ -1,3 +1,9 @@
+---
+title: 15-08-2025 - IT-Projektledelse - Første møde
+date: 2025-08-15
+tags: [IT-Projektledelse]
+---
+
 # Indlæg til første møde med Projektledeleses guild
 
 ---

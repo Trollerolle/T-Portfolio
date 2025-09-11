@@ -1,0 +1,23 @@
+---
+layout: null
+---
+[
+{%- assign first = true -%}
+{%- for p in site.pages -%}
+  {%- comment -%}
+    Vis kun sider i mappen "indlaeg/" som har mindst ét tag
+  {%- endcomment -%}
+  {%- if p.path contains 'indlaeg/' and p.tags and p.tags.size > 0 -%}
+    {%- unless first -%},{%- endunless -%}
+    {%- assign first = false -%}
+    {%- assign excerpt = p.excerpt | default: p.content | strip_html | strip_newlines | truncate: 220 -%}
+    {
+      "title": {{ p.title | jsonify }},
+      "url": {{ p.url | relative_url | jsonify }},
+      "date": "{{ p.date | date_to_xmlschema }}",
+      "tags": {{ p.tags | jsonify }},
+      "excerpt": {{ excerpt | jsonify }}
+    }
+  {%- endif -%}
+{%- endfor -%}
+]

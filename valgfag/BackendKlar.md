@@ -1,3 +1,9 @@
+---
+title: 15-08-2025 - API-Design - Første møde
+date: 2025-08-15
+tags: [API-Design]
+---
+
 # Indlæg til første møde med Backend guild
 
 ---
