@@ -22,7 +22,7 @@ I dette semester fokuserer jeg på at skabe en stærk struktur til at dokumenter
 ---
 
 ## Fokusområder
-- [IT-Projektledelse & Software Delivery](valgfag/Projektledelse01-09.md)
+- [IT-Projektledelse & Software Delivery](valgfag/Projektledelse12-09.md)
 - [Backend-udvikling & API-Design](valgfag/Backend03-09.md)
 
 - [Hvorfor har jeg valgt de emner?](indlaeg/HvorforEmner.md)
